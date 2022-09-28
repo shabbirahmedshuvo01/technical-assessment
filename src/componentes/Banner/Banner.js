@@ -4,7 +4,7 @@ import bimg from "../../componentes/Images/Landing page image.svg"
 const Banner = () => {
     return (
         <div className='bg-pink-50'>
-            <section className='lg:flex lg:flex-row-reverse items-center justify-evenly'>
+            <section className='lg:flex lg:flex-row-reverse items-center justify-evenly max-w-7xl mx-auto'>
 
                 <div className='lg:text-end lg:my-40 lg:p-28 mb-20'>
                     <h2 className='text-4xl font-bold text-primary'> <span>Imagine if</span> <br /> <span className='text-secondary'>Snapchat</span> <br /> had events.</h2>
