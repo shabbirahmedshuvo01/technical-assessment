@@ -10,7 +10,7 @@ const Banner = () => {
                     <h2 className='text-4xl font-bold text-primary'> <span>Imagine if</span> <br /> <span className='text-secondary'>Snapchat</span> <br /> had events.</h2>
                     <p className=' text-gray-600'>Easily host and share events with your friends <br /> across any social media.</p>
                     <div>
-                        <button className="btn btn-active btn-secondary mt-5">🎉 Create my event</button>
+                        <a href="/event"><button className="btn btn-active btn-secondary mt-5">🎉 Create my event</button></a>
                     </div>
                 </div>
 
