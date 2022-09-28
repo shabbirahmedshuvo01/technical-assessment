@@ -1,6 +1,8 @@
 import React from 'react';
 import bdyImg from '../../Images/Birthday cake.png';
-import svg1 from '../../Images/Fill 19.svg'
+import svg1 from '../../Images/Fill 19.svg';
+import { AiOutlineCalendar } from 'react-icons/ai';
+import { GoLocation } from 'react-icons/go';
 
 const Event = () => {
     return (
@@ -21,8 +23,8 @@ const Event = () => {
 
                     <div className='mt-10'>
                         <div className='mt-5 flex gap-5 text-start'>
-                            <div className='mt-2'>
-                                <img src={svg1} alt="" />
+                            <div className='mt-2 text-purple-500 text-2xl'>
+                                <AiOutlineCalendar />
                             </div>
                             <div>
                                 <p className='text-primary font-semibold'>18 August 6:00PM</p>
@@ -30,8 +32,8 @@ const Event = () => {
                             </div>
                         </div>
                         <div className='mt-5 flex gap-5 text-start'>
-                            <div className='mt-2'>
-                                <img src={svg1} alt="" />
+                            <div className='mt-2 text-purple-500 text-2xl'>
+                                <GoLocation />
                             </div>
                             <div>
                                 <p className='text-primary font-semibold'>Street name</p>
