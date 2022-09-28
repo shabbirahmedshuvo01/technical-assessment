@@ -1,6 +1,5 @@
 import React from 'react';
 import bdyImg from '../../Images/Birthday cake.png';
-import svg1 from '../../Images/Fill 19.svg';
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 
