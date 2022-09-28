@@ -8,10 +8,10 @@ const Event = () => {
             <section className='lg:flex flex-row-reverse justify-center items-center lg:gap-x-40'>
 
                 <div className='lg:mt-44'>
-                    <img className='w-96' src={bdyImg} alt="" />
+                    <img className='lg:w-96 md:p-10' src={bdyImg} alt="" />
                 </div>
 
-                <div>
+                <div className='p-5 md:px-20'>
                     <div className='text-start'>
                         <h2 className='text-4xl font-bold text-primary'>Birthday Bash</h2>
                         <p className='text-xs mt-1 text-black font-medium'>Hosted by Elysia</p>
